@@ -224,10 +224,7 @@ def space_checker2(gameboard, player2):
         return gameboard[2][2]
 
 
-def main():
-    
-    if space_checker(gameboard, player1) == "X" or space_checker(gameboard, player2) == "O":
-        
+def main():        
     
     print("\n                                                         Welcome To TicTacToe\n")
     print("Player 1, You Are X & Will Go First")
